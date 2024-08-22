@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body {
+
+    background-color: black;
+
+}
+
+img {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    display: block;
+
+}
+
+h2 {
+    color: white;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.5px;
+    text-align: center;
+
+
+}
+
+input {
+    color: aliceblue;
+    margin: 40px;
+    width: 342px;
+    height: 74px;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46.88px;
+    text-align: center;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.box {
+    text-align: center;
+}
+
+button {
+
+    margin: auto;
+    display: block;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2.5px;
+    text-align: center;
+    color: aliceblue;
+    width: 342px;
+    height: 72px;
+    background: rgba(174, 195, 70, 1);
+    box-shadow: 2px 2px 2px 2px rgba(174, 195, 70, 0.15);
+    border-radius: 10px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.7;
+}
+
+.result{
+    color: white;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.5px;
+    text-align: center;
+    padding: 40px;
+}
+
+@media screen and (max-width: 900px){
+    /* Estilos globais */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    font-family: Roboto, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
+}
+
+/* Estilo da imagem */
+img {
+    width: 80%; /* Ajusta a largura da imagem para 80% da tela */
+    max-width: 600px; /* Limita a largura máxima */
+    height: auto;
+    margin-bottom: 20px; /* Adiciona um espaço abaixo da imagem */
+}
+
+/* Estilo do título */
+h2 {
+    font-size: 2rem; /* Ajusta o tamanho da fonte para ser mais flexível */
+    text-align: center;
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+/* Estilo dos inputs */
+input {
+    color: aliceblue;
+    margin: 10px;
+    width: 90%; /* Ajusta a largura dos inputs para 90% da tela */
+    max-width: 342px; /* Limita a largura máxima */
+    height: 60px; /* Ajusta a altura */
+    font-size: 1.5rem; /* Ajusta o tamanho da fonte */
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Estilo da caixa que contém os inputs e o botão */
+.box {
+    text-align: center;
+}
+
+/* Estilo geral do botão */
+button {
+    font-size: 1.5rem; /* Ajusta o tamanho da fonte do botão */
+    width: 90%; /* Ajusta a largura do botão para 90% da tela */
+    max-width: 342px; /* Limita a largura máxima */
+    height: 60px; /* Ajusta a altura */
+    background: rgba(174, 195, 70, 1);
+    box-shadow: 2px 2px 2px 2px rgba(174, 195, 70, 0.15);
+    border-radius: 10px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease; /* Transição suave para efeitos de opacidade */
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+/* Estilo do elemento de resultado */
+.result {
+    font-size: 2rem; /* Ajusta o tamanho da fonte */
+    text-align: center;
+    padding: 50px;
+    width: 90%; /* Ajusta a largura para 90% da tela */
+    max-width: 342px; /* Limita a largura máxima */
+}
+
+}
